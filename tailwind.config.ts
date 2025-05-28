@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'noto-serif': ['Noto Serif SC', 'serif'],
+				'ma-shan': ['Ma Shan Zheng', 'cursive'],
+				'zcool': ['ZCOOL XiaoWei', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
