@@ -260,7 +260,7 @@ const Index = () => {
       {/* 制作者标识 */}
       <div className="fixed bottom-6 right-6 z-50">
         <a
-          href="https://x.com/BenJiang756174"
+          href="https://aiben.cc"
           target="_blank"
           rel="noopener noreferrer"
           className="text-amber-600/70 hover:text-amber-600 text-sm font-zcool transition-colors duration-300"
