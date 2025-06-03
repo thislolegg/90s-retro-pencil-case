@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+# 📚 90后的文具盒 - 童年记忆收藏馆
 
-## Project info
+> 小小一方天地，藏着我们的童年记忆
 
-**URL**: https://lovable.dev/projects/4cc9c922-8702-42f7-a3f2-d378832acf54
+## 🎯 项目简介
 
-## How can I edit this code?
+还记得那个装满宝贝的文具盒吗？英雄钢笔、香味橡皮、还珠格格贴纸...每一件文具都承载着90后独有的童年回忆。
 
-There are several ways of editing your application.
+这是一个互动式的怀旧网站，让你重新打开那个熟悉的文具盒，探索每一件文具背后的故事。更有神秘的水浒卡彩蛋等你发现！
 
-**Use Lovable**
+## 🌟 在线体验
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4cc9c922-8702-42f7-a3f2-d378832acf54) and start prompting.
+**🔗 [立即体验 Demo](https://www.youware.com/project/l9hwo5rqi8)**
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ 特色功能
 
-**Use your preferred IDE**
+### 📦 互动文具盒
+- 🖱️ **点击打开**：真实的开盒体验
+- 🎯 **精准交互**：每个文具都有独立的点击区域
+- 📖 **童年故事**：每件文具都有专属的回忆文案
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🎵 沉浸式体验
+- 🎶 **复古背景音乐**：营造怀旧氛围
+- 🔊 **音乐控制**：复古喇叭样式的播放控制
+- 🎨 **温暖色调**：琥珀色主题设计
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🎁 神秘彩蛋
+- 🔍 **隐藏区域**：在文具盒夹层中寻找秘密
+- 🃏 **水浒卡收集**：重现小浣熊干脆面的经典回忆
+- ⚡ **限量触发**：每个区域只能触发一次，珍贵感满满
 
-Follow these steps:
+### 📱 响应式设计
+- 💻 **多设备适配**：手机、平板、电脑完美显示
+- 🎯 **智能布局**：不同屏幕尺寸自动调整间距
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🛠️ 技术栈
+
+- **⚡ Vite** - 极速构建工具
+- **🔷 TypeScript** - 类型安全
+- **⚛️ React** - 现代UI框架
+- **🎨 Tailwind CSS** - 原子化CSS
+- **🧩 shadcn/ui** - 优雅组件库
+
+## 🚀 本地开发
+
+```bash
+# 克隆项目
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 进入项目目录
+cd memory-pencil-case-ai
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 安装依赖
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 启动开发服务器
 npm run dev
+
+# 构建生产版本
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📂 项目结构
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/          # React组件
+│   ├── PencilCaseInteractive.tsx    # 交互式文具盒
+│   ├── ItemContentDisplay.tsx       # 物品内容展示
+│   └── ...
+├── lib/                # 数据和工具
+│   └── pencilCaseData.ts           # 文具数据
+├── types/              # TypeScript类型定义
+└── pages/              # 页面组件
+    └── Index.tsx       # 主页面
+```
 
-**Use GitHub Codespaces**
+## 🎮 使用指南
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **🖱️ 点击文具盒**：观看开盒动画
+2. **👆 探索物品**：悬浮查看物品名称，点击阅读故事
+3. **🔍 寻找彩蛋**：在特定区域寻找放大镜图标
+4. **🃏 收集卡片**：发现隐藏的水浒卡片
+5. **🎵 享受音乐**：点击右上角喇叭控制背景音乐
 
-## What technologies are used for this project?
+## 🎨 设计理念
 
-This project is built with:
+- **🕰️ 怀旧情怀**：重现90后真实的文具盒体验
+- **🎯 细节至上**：每个交互都经过精心设计
+- **💝 情感共鸣**：用文字唤起共同的童年记忆
+- **🎪 趣味探索**：隐藏彩蛋增加探索乐趣
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 👨‍💻 关于作者
 
-## How can I deploy this project?
+Made with ❤️ by [@Ben的AI实验室](https://x.com/BenJiang756174)
 
-Simply open [Lovable](https://lovable.dev/projects/4cc9c922-8702-42f7-a3f2-d378832acf54) and click on Share -> Publish.
+## 📄 开源协议
 
-## Can I connect a custom domain to my Lovable project?
+本项目采用 MIT 协议开源
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**💫 让我们一起回到那个纯真的年代，重温文具盒里的美好时光！**
